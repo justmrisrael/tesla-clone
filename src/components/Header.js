@@ -17,6 +17,8 @@ function Header() {
                 <a href = "#">Model 3</a>
                 <a href = "#">Model X</a>
                 <a href = "#">Model Y</a>
+                <a href = "#">Solar Roofs</a>
+                <a href = "#">Solar Panels</a>
             </Menu>
 
             <RightMenu>
@@ -69,8 +71,8 @@ const Menu = styled.div`
     flex: 1;
 
     a{
-        font-weight: 600;
-        text-transform: uppercase;
+        font-weight: normal;
+        text-transform: none;
         padding: 0 10px;
         flex-wrap: nowrap;
     }
@@ -83,8 +85,8 @@ const RightMenu = styled.div`
     display: flex;
     align-items: center;
     a{
-        font-weight: 600;
-        text-transform: uppercase;
+        font-weight: normal;
+        text-transform: none;
         margin-right: 10px;
         flex-wrap: nowrap;
     }
@@ -115,7 +117,7 @@ const BurgerNav = styled.div`
         border-bottom: 1px solid rgba(0, 0, 0, .2);
 
         a{
-            font-weight: 600;
+            font-weight: normal;
         }
     }
 `
