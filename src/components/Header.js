@@ -32,6 +32,7 @@ const Container = styled.div`
     position: fixed;
     display: flex;
     algin-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     top: 0;
     left: 0;
@@ -49,6 +50,9 @@ const Menu = styled.div`
         padding: 0 10px;
         flex-wrap: nowrap;
     }
+     @media(max-width: 768px) {
+         display: none;
+     }
 
 `
 const RightMenu = styled.div`
