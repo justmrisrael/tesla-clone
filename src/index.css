@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: 'Helvetica Neue';
   color: #393c41;
   margin: 0;
   padding: 0;
@@ -13,6 +13,7 @@ body{
 a {
   text-decoration: none;
 }
+
 
 @keyframes animateDown {
   0%, 20%, 50%, 80%, 100%{
