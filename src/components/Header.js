@@ -111,7 +111,7 @@ const BurgerNav = styled.div`
     flex-direction: column;
     text-align: start;
     transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'};
-    transition: transform 0.6s;
+    transition: transform 0.7s;
     li{
         padding: 15px 0;
         border-bottom: 1px solid rgba(0, 0, 0, .2);
