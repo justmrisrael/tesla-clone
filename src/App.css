@@ -16,6 +16,7 @@
 @font-face {
   font-family: 'Nexa';
   src: url('./fonts/Nexa/NexaText-Trial-Regular.ttf');
+  font-weight: normal;
 }
 
 .App-header {
