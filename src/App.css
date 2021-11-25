@@ -13,6 +13,11 @@
   }
 }
 
+@font-face {
+  font-family: 'Nexa';
+  src: url('./font/Nexa/NexaText-Trial-Regular.ttf');
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
